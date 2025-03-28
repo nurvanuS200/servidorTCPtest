@@ -36,7 +36,7 @@ python client.py
 
 ![image](https://github.com/user-attachments/assets/87037827-94e8-4e61-855f-d7660bc871e1)
 
-Ejemplo en visual studio:
+Ejemplo en visual studio code:
 ![image](https://github.com/user-attachments/assets/300aff8f-7f95-4eff-a309-7732b839842e)
 
 ## Manual de pruebas
