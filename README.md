@@ -11,24 +11,24 @@ Estructura del proyecto
 
 └── README.md    
 ## Ejecutar el servidor 
-1. Abre una terminal o power shell
+1. Abre una terminal o power shell:
 ![image](https://github.com/user-attachments/assets/8c834973-319f-495f-8651-557d3e797655)
 
-2. Navega al directorio del proyecto
+2. Navega al directorio del proyecto:
 
 opcional: Utiliza el cmdlet Get-ChildItem para ver los archivos del directorio
 
-2.1 Ejecuta el servidor
+2.1 Ejecuta el servidor:
 
 server: nombre del archivo del servidor 
 
-ejemplo
+ejemplo:
 
  python server.py
  
 ![image](https://github.com/user-attachments/assets/b148c600-a484-428c-b1b6-77e1353bab87)
 
-2.2 Repite el proceso de abrir otra terminal o powell shell y ahora ejecuta el cliente
+2.2 Repite el proceso de abrir otra terminal o powell shell y ahora ejecuta el cliente:
 
 client: nombre del archivo del cliente
 
