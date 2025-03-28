@@ -2,6 +2,7 @@
 Este proyecto implementa una comunicación básica entre un servidor y un cliente utilizando sockets en Python. El servidor escucha en un puerto específico y procesa mensajes enviados por el cliente, respondiendo con el mensaje en mayúsculas. La comunicación se mantiene hasta que el cliente envía el mensaje "DESCONEXION".
 
 Estructura del proyecto
+
 │
 
 ├── server.py      # script que implementa el servidor.
@@ -20,8 +21,7 @@ ejemplo
  python server.py
 ![image](https://github.com/user-attachments/assets/b148c600-a484-428c-b1b6-77e1353bab87)
 
-2.2 Repite el proceso de abril otra terminal o powell shell
-y ahora ejecuta el cliente
+2.2 Repite el proceso de abrir otra terminal o powell shell y ahora ejecuta el cliente
 client: nombre del archivo del cliente
 python client.py
 ![image](https://github.com/user-attachments/assets/87037827-94e8-4e61-855f-d7660bc871e1)
@@ -30,14 +30,14 @@ Ejemplo en visual studio:
 ![image](https://github.com/user-attachments/assets/300aff8f-7f95-4eff-a309-7732b839842e)
 
 ## Manual de pruebas
-Caso 1: Conexión establecida
+### Caso 1: Conexión establecida
 1. El cliente envía un mensaje al servidor: "hola servidor".
 2. Si la conexión fue exitosa, el servidor muestra el mensaje recibido.
 3. El servidor envía al cliente el mismo mensaje pero en mayúsculas: "HOLA SERVIDOR".
+   
 ![image](https://github.com/user-attachments/assets/f5a0d284-21a3-4440-b4e8-062538621abf)
 
-
-Caso 2: Desconexión
+### Caso 2: Desconexión
 1. Cliente envía "DESCONEXION": El cliente transmite el mensaje al servidor indicando su intención de finalizar la sesión.
 
 2. Servidor recibe y cierra la conexión:
