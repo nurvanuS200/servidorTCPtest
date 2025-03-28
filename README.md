@@ -32,14 +32,20 @@ Ejemplo en visual studio:
 
 ## Manual de pruebas
 Caso 1: Conexión establecida
-1. El cliente envía un mensaje al servidor.
-2. Si la conexión fue exitosa, el servidor envía al cliente el mismo mensaje pero en mayúsculas.
-3. 
+1. El cliente envía un mensaje al servidor: "hola servidor".
+2. Si la conexión fue exitosa, el servidor muestra el mensaje recibido.
+3. El servidor envía al cliente el mismo mensaje pero en mayúsculas: "HOLA SERVIDOR".
 ![image](https://github.com/user-attachments/assets/f5a0d284-21a3-4440-b4e8-062538621abf)
 
 
 Caso 2: Desconexión
-1. El ciente 
+1. Cliente envía "DESCONEXION": El cliente transmite el mensaje al servidor indicando su intención de finalizar la sesión.
+
+2. Servidor recibe y cierra la conexión:
+   - El servidor, al recibir el mensaje "DESCONEXION", cierra la conexión con el cliente utilizando el método conn.close() y así libera los recursos asociados al socket y notifica al sistema operativo que la comunicación ha finalizado.
+
+3. Cliente cierra su socket:
+   - Tras enviar el mensaje, el cliente también cierra su socket con cliente_socket.close().
 ![image](https://github.com/user-attachments/assets/bccc5308-bc32-4d7c-a000-11f898ba8f8f)
 
 
