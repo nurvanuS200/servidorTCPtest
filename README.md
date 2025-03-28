@@ -9,7 +9,15 @@ Estructura del proyecto
 
 ├── client.py      # script que implementa el cliente.
 
-└── README.md    
+└── README.md  
+#### Requisitos:
+
+Python instalado
+
+## Clona el repositorio 
+1. Abre una terminal y navega al directorio donde deseas clonar el repositorio:
+2. Ejecuta: git clone https://github.com/nurvanuS200/servidorTCPtest.git
+
 ## Ejecutar el servidor 
 1. Abre una terminal o power shell:
 ![image](https://github.com/user-attachments/assets/8c834973-319f-495f-8651-557d3e797655)
