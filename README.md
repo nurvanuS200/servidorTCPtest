@@ -15,16 +15,25 @@ Estructura del proyecto
 ![image](https://github.com/user-attachments/assets/8c834973-319f-495f-8651-557d3e797655)
 
 2. Navega al directorio del proyecto
-opcional: Utiliza el cmdlet Get-ChildItem para ver los archivos del directorio 
+3. 
+opcional: Utiliza el cmdlet Get-ChildItem para ver los archivos del directorio
+
 2.1 Ejecuta el servidor
+
 server: nombre del archivo del servidor 
+
 ejemplo
+
  python server.py
+ 
 ![image](https://github.com/user-attachments/assets/b148c600-a484-428c-b1b6-77e1353bab87)
 
 2.2 Repite el proceso de abrir otra terminal o powell shell y ahora ejecuta el cliente
+
 client: nombre del archivo del cliente
+
 python client.py
+
 ![image](https://github.com/user-attachments/assets/87037827-94e8-4e61-855f-d7660bc871e1)
 
 Ejemplo en visual studio:
@@ -33,7 +42,9 @@ Ejemplo en visual studio:
 ## Manual de pruebas
 ### Caso 1: Conexión establecida
 1. El cliente envía un mensaje al servidor: "hola servidor".
+   
 2. Si la conexión fue exitosa, el servidor muestra el mensaje recibido.
+   
 3. El servidor envía al cliente el mismo mensaje pero en mayúsculas: "HOLA SERVIDOR".
    
 ![image](https://github.com/user-attachments/assets/f5a0d284-21a3-4440-b4e8-062538621abf)
