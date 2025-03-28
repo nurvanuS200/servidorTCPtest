@@ -4,7 +4,9 @@ Este proyecto implementa una comunicación básica entre un servidor y un client
 /Estructura del proyecto
 │
 ├── server.py      # script que implementa el servidor.
+
 ├── client.py      # script que implementa el cliente.
+
 └── README.md    
 ## Ejecutar el servidor 
 ## Manual de pruebas
