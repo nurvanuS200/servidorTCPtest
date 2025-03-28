@@ -15,7 +15,7 @@ Estructura del proyecto
 Python instalado
 
 ## Clona el repositorio 
-1. Abre una terminal y navega al directorio donde deseas clonar el repositorio:
+1. Abre una terminal y navega al directorio donde deseas clonar el repositorio.
 2. Ejecuta: git clone https://github.com/nurvanuS200/servidorTCPtest.git
 
 ## Ejecutar el servidor 
