@@ -15,7 +15,7 @@ Estructura del proyecto
 ![image](https://github.com/user-attachments/assets/8c834973-319f-495f-8651-557d3e797655)
 
 2. Navega al directorio del proyecto
-3. 
+
 opcional: Utiliza el cmdlet Get-ChildItem para ver los archivos del directorio
 
 2.1 Ejecuta el servidor
