@@ -32,11 +32,14 @@ Ejemplo en visual studio:
 
 ## Manual de pruebas
 Caso 1: Conexión establecida
-1. 
+1. El cliente envía un mensaje al servidor.
+2. Si la conexión fue exitosa, el servidor envía al cliente el mismo mensaje pero en mayúsculas.
+3. 
 ![image](https://github.com/user-attachments/assets/f5a0d284-21a3-4440-b4e8-062538621abf)
 
 
 Caso 2: Desconexión
+1. El ciente 
 ![image](https://github.com/user-attachments/assets/bccc5308-bc32-4d7c-a000-11f898ba8f8f)
 
 
